@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --app-bg: #0F172A; /* Slate 900 */
+  --app-surface: #1E293B; /* Slate 800 */
+  --app-surface-muted: #334155; /* Slate 700 */
+  --app-text: #F8FAFC; /* Slate 50 */
+  --app-muted: #94A3B8; /* Slate 400 */
+  --app-border: #475569; /* Slate 600 */
+  --app-accent: #EF4444; /* Red 500 */
+  --app-on-accent: #F8FAFC; /* Slate 50 */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  background-color: var(--app-bg);
+  color: var(--app-text);
+}
